@@ -24,7 +24,7 @@ import { themeCollectionSchema } from "../schema/collections/themes"
 
 const config = defineStaticConfig({
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
-  branch: 'microgen-demo',
+  branch: 'main',
   token: process.env.TINA_TOKEN!,
   media: {
     // If you wanted cloudinary do this
